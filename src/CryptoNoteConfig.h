@@ -108,8 +108,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        = 10000; // by defa
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            = 128; // by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         = 1000;
 
-const int      P2P_DEFAULT_PORT                              = 7080;
-const int      RPC_DEFAULT_PORT                              = 7081;
+const int      P2P_DEFAULT_PORT                              = 21583;
+const int      RPC_DEFAULT_PORT                              = 10713;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                = 1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 = 5000;
@@ -127,7 +127,7 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000; // 5 second
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "F29507CA78955F37A3B783EE2C5123B8B6A34A0C5CAAE050922C62541614G090";
 
 const std::initializer_list<const char*> SEED_NODES = {
-  "ec2-18-219-51-252.us-east-2.compute.amazonaws.com:7080", "ec2-13-58-224-8.us-east-2.compute.amazonaws.com:7080",
+  "130.255.76.197:21583", "51.38.236.226:21583",
 };
 
 struct CheckpointData {
