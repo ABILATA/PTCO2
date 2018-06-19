@@ -90,8 +90,8 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 } // parameters
 
-const char     CRYPTONOTE_NAME[]                             = "Evo";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001a0ccd705029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ba5944bf7364fc8af43ece565b6bdf20dac1454e69250d1d76e41a2e3a713299";
+const char     CRYPTONOTE_NAME[]                             = "PatoCoin";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1529127443;
