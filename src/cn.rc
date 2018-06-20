@@ -13,13 +13,13 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "Cryptonote Foundation"
+            VALUE "CompanyName", "PatoCoin Developers - JPPC"
             VALUE "FileDescription", "Cryptonote network daemon"
             VALUE "FileVersion", "3.0.3"
-            VALUE "InternalName", "Cryptonote.exe"
-            VALUE "LegalCopyright", "Copyright (C) 2010-2018, Cryptonote Developers"
-            VALUE "OriginalFilename", "Cryptonote.exe"
-            VALUE "ProductName", "Cryptonote"
+            VALUE "InternalName", "PatoCoin.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2010-2018, PatoCoin Developers"
+            VALUE "OriginalFilename", "PatoCoin.exe"
+            VALUE "ProductName", "PatoCoin"
             VALUE "ProductVersion", "3.0.3"
         END
     END
@@ -29,4 +29,4 @@ BEGIN
     END
 END
 
-101               ICON                    "cn.ico"
+101               ICON                    "ptco.ico"
